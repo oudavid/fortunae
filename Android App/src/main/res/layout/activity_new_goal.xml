@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.fortunae.android.app.NewGoalActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/goal_list_item_height"
+            android:hint="@string/title" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/goal_list_item_height"
+            android:hint="@string/description"
+            android:layout_below="@id/title" />
+
+        <EditText
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/goal_list_item_height"
+            android:hint="@string/category"
+            android:layout_below="@id/description" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/goal_list_item_height"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"
+            android:layout_below="@id/category"
+            android:text="@string/add"/>
+    </RelativeLayout>
+</ScrollView>
