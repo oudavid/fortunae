@@ -8,30 +8,99 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.fortunae.android.app.NewGoalActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/title"
+        <TextView
+            android:id="@+id/title_new_goal"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/goal_list_item_height"
-            android:hint="@string/title" />
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="@string/title_new_goal"/>
 
         <EditText
-            android:id="@+id/description"
+            android:id="@+id/action"
             android:layout_width="match_parent"
             android:layout_height="@dimen/goal_list_item_height"
-            android:hint="@string/description"
-            android:layout_below="@id/title" />
+            android:hint="@string/hint_field_action" />
 
-        <EditText
+        <TextView
+            android:id="@+id/description_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/description_field_action"/>
+
+        <Spinner
             android:id="@+id/category"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/goal_list_item_height"
-            android:hint="@string/category"
-            android:layout_below="@id/description" />
+            android:layout_height="48dp"
+            android:entries="@array/default_categories"/>
+
+        <TextView
+            android:id="@+id/description_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/description_field_category"/>
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="@string/title_details"/>
+
+        <SeekBar
+            android:id="@+id/adventurous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/description_adventurous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/description_adventurous"/>
+
+        <SeekBar
+            android:id="@+id/time_commitment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/description_time_commitment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/description_time_commitment"/>
+
+        <SeekBar
+            android:id="@+id/cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/description_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/description_cost"/>
 
         <Button
             android:layout_width="match_parent"
@@ -39,6 +108,6 @@
             android:layout_alignParentBottom="true"
             android:textAlignment="center"
             android:layout_below="@id/category"
-            android:text="@string/add"/>
-    </RelativeLayout>
+            android:text="@string/action_add_new_goal"/>
+    </LinearLayout>
 </ScrollView>

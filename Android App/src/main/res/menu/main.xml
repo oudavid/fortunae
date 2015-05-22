@@ -4,7 +4,6 @@
     tools:context="com.fortunae.android.app.GoalActivity" >
     <item android:id="@+id/action_new_goal"
         android:title="@string/action_new_goal"
-        android:icon="@drawable/ic_action_new"
         app:showAsAction="ifRoom" />
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
