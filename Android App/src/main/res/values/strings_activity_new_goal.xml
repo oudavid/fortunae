@@ -8,6 +8,7 @@
     <string name="title_details">Tell us more...</string>
     <string name="title_new_goal">What new, awesome goal are going to accomplish next?</string>
     <string name="description_cost">How much will it cost?</string>
+    <string name="error_invalid_action">This new goal is not formatted correctly.</string>
     
     <string-array name="default_categories">
         <item>Adventure</item>

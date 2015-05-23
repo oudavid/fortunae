@@ -103,6 +103,7 @@
             android:text="@string/description_cost"/>
 
         <Button
+            android:id="@+id/add_goal"
             android:layout_width="match_parent"
             android:layout_height="@dimen/goal_list_item_height"
             android:layout_alignParentBottom="true"

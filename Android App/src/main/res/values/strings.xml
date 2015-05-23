@@ -15,5 +15,7 @@
     <string name="description">description</string>
     <string name="category">category</string>
     <string name="action_add_new_goal">Add Goal</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
