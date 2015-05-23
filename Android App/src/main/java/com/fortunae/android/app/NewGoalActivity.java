@@ -94,7 +94,7 @@ public class NewGoalActivity extends ActionBarActivity {
         newGoal.put("Cost", cost);
 
         // Send data to Parse.com for verification
-        newGoal.saveEventually(new SaveCallback() {
+        newGoal.saveInBackground(new SaveCallback() {
             @Override
             public void done(ParseException e) {
                 if (e != null) {

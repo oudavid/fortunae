@@ -14,14 +14,14 @@
         <activity
             android:name=".NewGoalActivity"
             android:label="@string/title_activity_new_goal"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".DashboardActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".DashboardActivity" />
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
