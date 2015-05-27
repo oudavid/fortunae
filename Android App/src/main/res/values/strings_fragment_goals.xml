@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_section_dashboard">Dashboard</string>
+    <string name="title_section_explore">Explore</string>
+
+    <string-array name="goal_types">
+        <item>Active</item>
+        <item>Backlog</item>
+        <item>Completed</item>
+    </string-array>
+</resources>

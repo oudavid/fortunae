@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hint_field_action">Ex. Celebrate NYE in Times Square.</string>
+    <string name="title_activity_new_goal">Add a New Goal</string>
+    <string name="title_details">Tell us more...</string>
+    <string name="title_new_goal">What new, awesome goal are going to accomplish next?</string>
+
     <string name="description_field_action">This is the action/goal you are trying to achieve.</string>
     <string name="description_field_category">What category does your new goal fall under?</string>
     <string name="description_adventurous">How adventurous is it?</string>
     <string name="description_time_commitment">How much of a time commitment will it take?</string>
-    <string name="title_details">Tell us more...</string>
-    <string name="title_new_goal">What new, awesome goal are going to accomplish next?</string>
     <string name="description_cost">How much will it cost?</string>
+
+    <string name="hint_field_action">Ex. Celebrate NYE in Times Square.</string>
+
     <string name="error_invalid_action">This new goal is not formatted correctly.</string>
     
     <string-array name="default_categories">
@@ -16,6 +20,7 @@
         <item>Humanitarian</item>
         <item>Philanthropy</item>
         <item>Thrill</item>
+        <item>Training</item>
         <item>Travel</item>
     </string-array>
 </resources>

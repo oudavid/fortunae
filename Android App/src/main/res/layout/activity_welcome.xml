@@ -1,0 +1,41 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        tools:context="com.aim.aimbreaker.WelcomeActivity" />
+
+    <LinearLayout
+        android:layout_height="56dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/sign_in"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/sign_in"
+            android:layout_marginRight="1dp"
+            android:onClick="onSignInButtonClick"/>
+
+        <Button
+            android:id="@+id/sign_up"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/sign_up"
+            android:layout_marginLeft="1dp"
+            android:onClick="onSignUpButtonClick"/>
+    </LinearLayout>
+
+</RelativeLayout>

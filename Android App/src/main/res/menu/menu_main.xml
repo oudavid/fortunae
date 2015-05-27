@@ -15,4 +15,10 @@
         android:title="@string/action_settings"
         android:orderInCategory="200"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sign_out"
+        android:title="@string/action_sign_out"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
 </menu>

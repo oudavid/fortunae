@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#e87511</color>
+    <color name="primary_dark">#E65100</color>
+    <color name="accent">#FFF3E0</color>
+    <color name="text_primary">#252525</color>
+    <color name="button_primary">#FF6D00</color>
+    <color name="text_secondary">#212121</color>
+    <color name="white">#FFF</color>
+    <color name="light_grey">#ededed</color>
+    <color name="medium_grey">#999999</color>
+    <color name="dark_grey">#595a5d</color>
+    <color name="chart_reuce">#cee007</color>
+    <color name="light_blue">#0494c9</color>
+    <color name="dark_blue">#004f6d</color>
+</resources>

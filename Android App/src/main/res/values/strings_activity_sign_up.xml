@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_email">Email Address</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_confirm_password">This password is too short</string>
+    <string name="error_invalid_description">This description is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="forgot_username">Forgot Username?</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="prompt_start_date">ex. Aug 11, 2014</string>
+
+    <string-array name="locations">
+        <item>Seattle</item>
+        <item>Denver</item>
+        <item>Chicago</item>
+        <item>Dallas</item>
+        <item>Atlanta</item>
+        <item>Minneapolis</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Solutions Consultant</item>
+        <item>Principal Consultant</item>
+        <item>MTAR</item>
+        <item>Account Executive</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="prompt_description">Description</string>
+</resources>

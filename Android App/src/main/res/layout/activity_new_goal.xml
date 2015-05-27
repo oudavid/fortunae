@@ -14,6 +14,7 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/FortunaeTextViewStyle"
             android:id="@+id/title_new_goal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,12 +26,14 @@
             android:text="@string/title_new_goal"/>
 
         <EditText
+            style="@style/FortunaeEditTextStyle"
             android:id="@+id/action"
             android:layout_width="match_parent"
             android:layout_height="@dimen/goal_list_item_height"
             android:hint="@string/hint_field_action" />
 
         <TextView
+            style="@style/FortunaeTextViewStyle"
             android:id="@+id/description_action"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,6 +48,7 @@
             android:entries="@array/default_categories"/>
 
         <TextView
+            style="@style/FortunaeTextViewStyle"
             android:id="@+id/description_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,6 +57,7 @@
             android:text="@string/description_field_category"/>
 
         <TextView
+            style="@style/FortunaeTextViewStyle"
             android:id="@+id/details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -69,6 +74,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
+            style="@style/FortunaeTextViewStyle"
             android:id="@+id/description_adventurous"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,6 +88,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
+            style="@style/FortunaeTextViewStyle"
             android:id="@+id/description_time_commitment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,6 +102,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
+            style="@style/FortunaeTextViewStyle"
             android:id="@+id/description_cost"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -103,6 +111,7 @@
             android:text="@string/description_cost"/>
 
         <Button
+            style="@style/FortunaeButtonStyle"
             android:id="@+id/add_goal"
             android:layout_width="match_parent"
             android:layout_height="@dimen/goal_list_item_height"

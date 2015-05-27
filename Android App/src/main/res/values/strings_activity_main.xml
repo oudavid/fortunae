@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_section_active">Active Goals</string>
+    <string name="title_section_backlog">Backlog</string>
+    <string name="title_section_completed">Completed</string>
+    <string name="title_section_compliment">You rock!</string>
+    <string name="quote">\"History will be kind to me, for I intend to write it.\" - Winston Churchill</string>
+    <string name="title_section_badge">Badge</string>
+    <string name="encouragement">This week calls for %s goals.</string>
+    <string name="title_section_description_encouragement">Get your gear together and check out what\'s up next!</string>
+</resources>

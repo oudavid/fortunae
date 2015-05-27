@@ -2,7 +2,32 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
-        <!-- Customize your theme here. -->
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/primary</item>
+        <!--&lt;!&ndash;   darker variant for the status bar and contextual app bars &ndash;&gt;-->
+        <!--<item name="colorPrimaryDark">@color/primary_dark</item>-->
+        <!--&lt;!&ndash;   theme UI controls like checkboxes and text fields &ndash;&gt;-->
+        <item name="colorAccent">@color/light_blue</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="FortunaeTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textColorPrimary">@color/text_secondary</item>
+    </style>
+
+    <style name="FortunaeEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:maxLength">150</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:height">56dp</item>
+    </style>
+
+    <style name="FortunaeButtonStyle" parent="android:Widget.Button">
+        <item name="android:height">56dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
