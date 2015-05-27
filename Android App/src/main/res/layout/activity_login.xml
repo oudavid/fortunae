@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <AutoCompleteTextView
+            <EditText
                 style="@style/FortunaeEditTextStyle"
                 android:id="@+id/email"
                 android:layout_width="match_parent"
