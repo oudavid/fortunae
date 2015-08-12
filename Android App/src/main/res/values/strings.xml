@@ -27,4 +27,8 @@
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
 
+    <string name="navigation_item_dashboard">Dashboard</string>
+    <string name="navigation_item_explore">Explore</string>
+    <string name="title_activity_base">BaseActivity</string>
+
 </resources>

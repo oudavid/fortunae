@@ -1,10 +1,9 @@
 package com.fortunae.android.app;
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.ActionBarActivity;
 import android.text.TextUtils;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
@@ -14,10 +13,11 @@ import android.widget.Toast;
 
 import com.parse.ParseException;
 import com.parse.ParseObject;
+import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 
-public class NewGoalActivity extends ActionBarActivity {
+public class NewGoalActivity extends BaseActivity {
     private TextView mActionTextView;
     private Spinner mCategorySpinner;
     private SeekBar mAdventurousSeekBar;
@@ -55,6 +55,7 @@ public class NewGoalActivity extends ActionBarActivity {
         // Reset errors.
         mActionTextView.setError(null);
 
+        String userId = ParseUser.getCurrentUser().getObjectId();
         String action = mActionTextView.getText().toString();
         String category = (String) mCategorySpinner.getSelectedItem();
         int adventurous = mAdventurousSeekBar.getProgress();
@@ -67,11 +68,13 @@ public class NewGoalActivity extends ActionBarActivity {
         }
 
         ParseObject newGoal = new ParseObject("Goal");
+        newGoal.put("userId", userId);
         newGoal.put("Action", action);
         newGoal.put("Category", category);
         newGoal.put("Adventurous", adventurous);
         newGoal.put("TimeCommitment", timeCommitment);
         newGoal.put("Cost", cost);
+        newGoal.put("status", "backlog");
 
         // Send data to Parse.com for verification
         newGoal.saveInBackground(new SaveCallback() {

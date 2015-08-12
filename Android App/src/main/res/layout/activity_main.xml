@@ -2,9 +2,11 @@
 <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context="com.fortunae.android.app.MainActivity">
 
     <!-- As the menu_main content view, the view below consumes the entire
@@ -21,12 +23,12 @@
          android:layout_gravity="left" instead. -->
     <!-- The drawer is given a fixed width in dp and extends the full height of
          the container. -->
-    <fragment
-        android:id="@+id/navigation_drawer"
-        android:layout_width="@dimen/navigation_drawer_width"
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:name="com.fortunae.android.app.NavigationDrawerFragment"
-        tools:layout="@layout/fragment_navigation_drawer" />
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/drawer"/>
 
 </android.support.v4.widget.DrawerLayout>

@@ -4,10 +4,6 @@
     android:id="@+id/pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.fortunae.android.app.MainActivity" >
 
@@ -17,10 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:padding="@dimen/activity_padding"
         android:orientation="vertical"
         tools:context="com.fortunae.android.app.MainActivity" >
 
@@ -94,7 +87,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1.25"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
@@ -110,18 +103,6 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:src="@drawable/badge"/>
-
-        <TextView
-            style="@style/FortunaeTextViewStyle"
-            android:id="@+id/title_encouragement_quote"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/title_badge"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:gravity="center"
-            android:textSize="24dp"
-            android:text="@string/quote"/>
 
         <TextView
             style="@style/FortunaeTextViewStyle"
